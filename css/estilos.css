@@ -1,0 +1,220 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+    color: white; 
+    text-decoration: none;
+    background-color: black; 
+    text-align: center; 
+    font-size: 30px; 
+    position: fixed;
+    z-index: 100;
+    
+}
+header img {
+    width: 17%;
+}
+header a {
+    padding: 0px;
+}
+
+.espacio {
+    height: 170px;
+}
+header div a {
+    text-decoration: none;
+}
+
+.navbar-brand {
+    font-size: 50px;
+}
+.carousel {
+    margin-top: 5%;
+}
+.carousel-inner {
+    height: 500px;
+    width: 1500px;
+}
+.carousel-item h5 {
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+}
+.carousel-item p {
+    color: white;
+    background-color:  rgba(0,0,0,0.6);
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+footer{
+    background-color: black;
+    font-size: 30px ;
+    text-align: center; 
+    border:solid black; 
+    padding-bottom: 0px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+footer h1 {
+    font-size: 30px;
+    position: relative;
+    padding-right: 20%;
+    padding-top: 5px;
+}
+
+footer p {
+    position: relative;
+    padding-top: 10px;
+}
+
+footer img {
+    width: 60px;
+}
+
+nav ul li a {
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    background-attachment: fixed;
+    background-color: black;
+    background-image: url('../img/ac4.png');
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.container h2 {
+    font-family: 'Noto Sans', sans-serif;
+}
+.container h3 {
+    font-size: 20px;
+}
+
+.row {
+    padding: 15px;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 10px;
+    font-size: 40px;
+    margin-left: -20%;
+    margin-right: -20%;
+}
+.row h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+.historia p {
+    font-size: 20px;
+}
+.historia h2 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.col {
+    font-family: 'Oswald', sans-serif;
+}
+.col h2 {
+    padding-top: 10px;
+
+}
+.col img {
+    width: 100%;
+    height: 100%;
+}
+
+.inicio {
+    font-family: 'Oswald', sans-serif;
+}
+.inicio h2 {
+    padding-top: 10px;
+}
+
+.cajaimg img {
+    width: 110%;
+    height: 300px;
+}
+.cajaimg:hover {
+    z-index: 6;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+.contimg {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding-top: 20px;
+}
+.contimg img {
+    width: 100%;
+}
+.contimg p {
+    font-size: 20px;
+}
+.contimg .overlay {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 30%;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.5 ease-in-out;
+}
+.contimg:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+.overlay h2 {
+    position: absolute;
+    top: 5%;
+    left: 100px;
+    transform: translate(-10%,-10%);
+    color: white;
+}
+
+
+.form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+}
+.form img {
+    width: 120%;
+}
+.form label {
+    padding-top: 10px;
+}
+
+.custom-control {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+
+.enviar {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
